@@ -1,4 +1,4 @@
-# LA Tracker
+# LOA Logs ELK
 
 Script which indexes your LOA logs data from your .db file into elasticsearch.
 
