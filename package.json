@@ -1,0 +1,24 @@
+{
+  "name": "loa-logs-elasticsearch-kibana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "esrun ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.12.1",
+    "dotenv": "^16.4.4",
+    "esrun": "^3.2.26",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
